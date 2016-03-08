@@ -2,7 +2,7 @@ import {
   INCREMENT_COUNTER,
   DECREMENT_COUNTER,
   LOGOUT_USER
-} from '../constants';
+} from '../../constants';
 import { fromJS } from 'immutable';
 
 

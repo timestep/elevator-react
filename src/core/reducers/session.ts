@@ -3,7 +3,7 @@ import {
   LOGIN_USER_SUCCESS,
   LOGIN_USER_ERROR,
   LOGOUT_USER,
-} from '../constants';
+} from '../../constants';
 
 import { fromJS } from 'immutable';
 

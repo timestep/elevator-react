@@ -5,7 +5,7 @@ import {
   LOGIN_USER_ERROR,
   LOGOUT_USER,
   FORM_RESET,
-} from '../constants';
+} from '../../constants';
 
 
 export function loginUser() {

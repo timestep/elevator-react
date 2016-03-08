@@ -1,5 +1,5 @@
 import * as assert from 'assert';
-import fireAction from '../utils/fire-action';
+import fireAction from '../../utils/fire-action';
 import sessionReducer from '../reducers/session';
 
 import {
@@ -7,7 +7,7 @@ import {
   LOGIN_USER_SUCCESS,
   LOGIN_USER_ERROR,
   LOGOUT_USER,
-} from '../../src/constants/index';
+} from '../../../src/constants/index';
 
 import { Map } from 'immutable';
 

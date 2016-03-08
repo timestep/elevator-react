@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { connect } from 'react-redux';
-import { increment, decrement } from '../actions/counter';
+import { increment, decrement } from '../core/actions/counter';
 import Counter from '../components/counter';
 import Container from '../components/container';
 import Column from '../components/column';
@@ -28,7 +28,7 @@ function mapDispatchToProps(dispatch) {
 class CounterPage extends React.Component<ICounterPageProps, void> {
   render() {
     const { counter, increaseCounter, decreaseCounter } = this.props;
- 
+
     return (
       <Container>
         <Column className="col-4">
@@ -40,7 +40,7 @@ class CounterPage extends React.Component<ICounterPageProps, void> {
             decrement={ decreaseCounter } />
         </Column>
       </Container>
-    ); 
+    );
   };
 }
 
